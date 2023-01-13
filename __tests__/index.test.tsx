@@ -6,7 +6,7 @@ describe('Home', () => {
     render(<Home />)
 
     const heading = screen.getByRole('heading', {
-      name: /welcome to next\.js!/i,
+      name: /next\.js with firebase/i,
     })
 
     expect(heading).toBeInTheDocument()
